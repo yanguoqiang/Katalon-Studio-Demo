@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comment_comment</name>
+   <name>textarea_comment</name>
    <tag></tag>
    <elementGuidId>fd501b28-f8bf-4188-a3cb-2da3853ba0fc</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//textarea[@id='txt_comment']</value>

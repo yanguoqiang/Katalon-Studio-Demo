@@ -17,11 +17,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Page_Index/a_Make Appointment'))
+WebUI.click(findTestObject('Page_Index/btn_make-appointment'))
 
-WebUI.setText(findTestObject('Page_Login/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Page_Login/input_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Page_Login/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('Page_Login/input_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Page_Login/button_Login'))
+WebUI.click(findTestObject('Page_Login/btn_login'))
 

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_password</name>
    <tag></tag>
    <elementGuidId>03f03604-2422-4c68-ab35-8e241ee3ebac</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='txt-password']</value>

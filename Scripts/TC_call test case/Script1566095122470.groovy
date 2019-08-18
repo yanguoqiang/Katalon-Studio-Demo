@@ -13,17 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-WebUI.click(findTestObject('Page_Index/btn_make-appointment'))
-
-WebUI.setText(findTestObject('Page_Login/input_username'), 'John Doe')
-
-WebUI.setText(findTestObject('Page_Login/input_password'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Page_Login/btn_login'))
+WebUI.callTestCase(findTestCase('TC_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Page_Appointment/select_combo-facility'), 'Hongkong CURA Healthcare Center', true)
 
